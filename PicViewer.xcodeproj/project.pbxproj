@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504444372174CEEA00D49C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504444362174CEEA00D49C0A /* AppDelegate.m */; };
+		504444392174CEEB00D49C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504444382174CEEB00D49C0A /* Assets.xcassets */; };
+		5044443C2174CEEB00D49C0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5044443A2174CEEB00D49C0A /* MainMenu.xib */; };
+		5044443F2174CEEC00D49C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5044443E2174CEEC00D49C0A /* main.m */; };
+		5044444A2174CEEC00D49C0A /* PicViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504444492174CEEC00D49C0A /* PicViewerTests.m */; };
+		504444552174CEEC00D49C0A /* PicViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504444542174CEEC00D49C0A /* PicViewerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504444462174CEEC00D49C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5044442A2174CEEA00D49C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504444312174CEEA00D49C0A;
+			remoteInfo = PicViewer;
+		};
+		504444512174CEEC00D49C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5044442A2174CEEA00D49C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504444312174CEEA00D49C0A;
+			remoteInfo = PicViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504444322174CEEA00D49C0A /* PicViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504444352174CEEA00D49C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		504444362174CEEA00D49C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		504444382174CEEB00D49C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5044443B2174CEEB00D49C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5044443D2174CEEC00D49C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5044443E2174CEEC00D49C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		504444402174CEEC00D49C0A /* PicViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PicViewer.entitlements; sourceTree = "<group>"; };
+		504444452174CEEC00D49C0A /* PicViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504444492174CEEC00D49C0A /* PicViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicViewerTests.m; sourceTree = "<group>"; };
+		5044444B2174CEEC00D49C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504444502174CEEC00D49C0A /* PicViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504444542174CEEC00D49C0A /* PicViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicViewerUITests.m; sourceTree = "<group>"; };
+		504444562174CEEC00D49C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5044442F2174CEEA00D49C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504444422174CEEC00D49C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5044444D2174CEEC00D49C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504444292174CEEA00D49C0A = {
+			isa = PBXGroup;
+			children = (
+				504444342174CEEA00D49C0A /* PicViewer */,
+				504444482174CEEC00D49C0A /* PicViewerTests */,
+				504444532174CEEC00D49C0A /* PicViewerUITests */,
+				504444332174CEEA00D49C0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504444332174CEEA00D49C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504444322174CEEA00D49C0A /* PicViewer.app */,
+				504444452174CEEC00D49C0A /* PicViewerTests.xctest */,
+				504444502174CEEC00D49C0A /* PicViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504444342174CEEA00D49C0A /* PicViewer */ = {
+			isa = PBXGroup;
+			children = (
+				504444352174CEEA00D49C0A /* AppDelegate.h */,
+				504444362174CEEA00D49C0A /* AppDelegate.m */,
+				504444382174CEEB00D49C0A /* Assets.xcassets */,
+				5044443A2174CEEB00D49C0A /* MainMenu.xib */,
+				5044443D2174CEEC00D49C0A /* Info.plist */,
+				5044443E2174CEEC00D49C0A /* main.m */,
+				504444402174CEEC00D49C0A /* PicViewer.entitlements */,
+			);
+			path = PicViewer;
+			sourceTree = "<group>";
+		};
+		504444482174CEEC00D49C0A /* PicViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				504444492174CEEC00D49C0A /* PicViewerTests.m */,
+				5044444B2174CEEC00D49C0A /* Info.plist */,
+			);
+			path = PicViewerTests;
+			sourceTree = "<group>";
+		};
+		504444532174CEEC00D49C0A /* PicViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				504444542174CEEC00D49C0A /* PicViewerUITests.m */,
+				504444562174CEEC00D49C0A /* Info.plist */,
+			);
+			path = PicViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504444312174CEEA00D49C0A /* PicViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504444592174CEEC00D49C0A /* Build configuration list for PBXNativeTarget "PicViewer" */;
+			buildPhases = (
+				5044442E2174CEEA00D49C0A /* Sources */,
+				5044442F2174CEEA00D49C0A /* Frameworks */,
+				504444302174CEEA00D49C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicViewer;
+			productName = PicViewer;
+			productReference = 504444322174CEEA00D49C0A /* PicViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		504444442174CEEC00D49C0A /* PicViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5044445C2174CEEC00D49C0A /* Build configuration list for PBXNativeTarget "PicViewerTests" */;
+			buildPhases = (
+				504444412174CEEC00D49C0A /* Sources */,
+				504444422174CEEC00D49C0A /* Frameworks */,
+				504444432174CEEC00D49C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504444472174CEEC00D49C0A /* PBXTargetDependency */,
+			);
+			name = PicViewerTests;
+			productName = PicViewerTests;
+			productReference = 504444452174CEEC00D49C0A /* PicViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5044444F2174CEEC00D49C0A /* PicViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5044445F2174CEEC00D49C0A /* Build configuration list for PBXNativeTarget "PicViewerUITests" */;
+			buildPhases = (
+				5044444C2174CEEC00D49C0A /* Sources */,
+				5044444D2174CEEC00D49C0A /* Frameworks */,
+				5044444E2174CEEC00D49C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504444522174CEEC00D49C0A /* PBXTargetDependency */,
+			);
+			name = PicViewerUITests;
+			productName = PicViewerUITests;
+			productReference = 504444502174CEEC00D49C0A /* PicViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5044442A2174CEEA00D49C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "杨鑫磊";
+				TargetAttributes = {
+					504444312174CEEA00D49C0A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					504444442174CEEC00D49C0A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 504444312174CEEA00D49C0A;
+					};
+					5044444F2174CEEC00D49C0A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 504444312174CEEA00D49C0A;
+					};
+				};
+			};
+			buildConfigurationList = 5044442D2174CEEA00D49C0A /* Build configuration list for PBXProject "PicViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504444292174CEEA00D49C0A;
+			productRefGroup = 504444332174CEEA00D49C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504444312174CEEA00D49C0A /* PicViewer */,
+				504444442174CEEC00D49C0A /* PicViewerTests */,
+				5044444F2174CEEC00D49C0A /* PicViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504444302174CEEA00D49C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504444392174CEEB00D49C0A /* Assets.xcassets in Resources */,
+				5044443C2174CEEB00D49C0A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504444432174CEEC00D49C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5044444E2174CEEC00D49C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5044442E2174CEEA00D49C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5044443F2174CEEC00D49C0A /* main.m in Sources */,
+				504444372174CEEA00D49C0A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504444412174CEEC00D49C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5044444A2174CEEC00D49C0A /* PicViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5044444C2174CEEC00D49C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504444552174CEEC00D49C0A /* PicViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504444472174CEEC00D49C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504444312174CEEA00D49C0A /* PicViewer */;
+			targetProxy = 504444462174CEEC00D49C0A /* PBXContainerItemProxy */;
+		};
+		504444522174CEEC00D49C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504444312174CEEA00D49C0A /* PicViewer */;
+			targetProxy = 504444512174CEEC00D49C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5044443A2174CEEB00D49C0A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5044443B2174CEEB00D49C0A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504444572174CEEC00D49C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		504444582174CEEC00D49C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5044445A2174CEEC00D49C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PicViewer/PicViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaishou.yxl.PicViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5044445B2174CEEC00D49C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PicViewer/PicViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaishou.yxl.PicViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5044445D2174CEEC00D49C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaishou.yxl.PicViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicViewer.app/Contents/MacOS/PicViewer";
+			};
+			name = Debug;
+		};
+		5044445E2174CEEC00D49C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaishou.yxl.PicViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicViewer.app/Contents/MacOS/PicViewer";
+			};
+			name = Release;
+		};
+		504444602174CEEC00D49C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaishou.yxl.PicViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicViewer;
+			};
+			name = Debug;
+		};
+		504444612174CEEC00D49C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PicViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaishou.yxl.PicViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5044442D2174CEEA00D49C0A /* Build configuration list for PBXProject "PicViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504444572174CEEC00D49C0A /* Debug */,
+				504444582174CEEC00D49C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504444592174CEEC00D49C0A /* Build configuration list for PBXNativeTarget "PicViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5044445A2174CEEC00D49C0A /* Debug */,
+				5044445B2174CEEC00D49C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5044445C2174CEEC00D49C0A /* Build configuration list for PBXNativeTarget "PicViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5044445D2174CEEC00D49C0A /* Debug */,
+				5044445E2174CEEC00D49C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5044445F2174CEEC00D49C0A /* Build configuration list for PBXNativeTarget "PicViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504444602174CEEC00D49C0A /* Debug */,
+				504444612174CEEC00D49C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5044442A2174CEEA00D49C0A /* Project object */;
+}
