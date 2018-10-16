@@ -13,6 +13,9 @@
 		5044443F2174CEEC00D49C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5044443E2174CEEC00D49C0A /* main.m */; };
 		5044444A2174CEEC00D49C0A /* PicViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504444492174CEEC00D49C0A /* PicViewerTests.m */; };
 		504444552174CEEC00D49C0A /* PicViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 504444542174CEEC00D49C0A /* PicViewerUITests.m */; };
+		5044446C217592E000D49C0A /* MovableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5044446B217592E000D49C0A /* MovableImageView.m */; };
+		5044446F2175938300D49C0A /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5044446E2175938300D49C0A /* MyWindow.m */; };
+		A1909D5414390904378FD694 /* libPods-PicViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 886E950296EB1447F6853C3F /* libPods-PicViewer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,13 @@
 		504444502174CEEC00D49C0A /* PicViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		504444542174CEEC00D49C0A /* PicViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicViewerUITests.m; sourceTree = "<group>"; };
 		504444562174CEEC00D49C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5044446A217592E000D49C0A /* MovableImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovableImageView.h; sourceTree = "<group>"; };
+		5044446B217592E000D49C0A /* MovableImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovableImageView.m; sourceTree = "<group>"; };
+		5044446D2175938300D49C0A /* MyWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		5044446E2175938300D49C0A /* MyWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+		7AE026320FE3A0DDADEECB47 /* Pods-PicViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicViewer/Pods-PicViewer.release.xcconfig"; sourceTree = "<group>"; };
+		886E950296EB1447F6853C3F /* libPods-PicViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9B53A4AE8F3B92B7925FD5 /* Pods-PicViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicViewer/Pods-PicViewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1909D5414390904378FD694 /* libPods-PicViewer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,8 @@
 				504444482174CEEC00D49C0A /* PicViewerTests */,
 				504444532174CEEC00D49C0A /* PicViewerUITests */,
 				504444332174CEEA00D49C0A /* Products */,
+				82E56D836C3A4211E0829F2D /* Pods */,
+				EECEA910C2B51ECF71E4CC7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +112,10 @@
 			children = (
 				504444352174CEEA00D49C0A /* AppDelegate.h */,
 				504444362174CEEA00D49C0A /* AppDelegate.m */,
+				5044446A217592E000D49C0A /* MovableImageView.h */,
+				5044446B217592E000D49C0A /* MovableImageView.m */,
+				5044446D2175938300D49C0A /* MyWindow.h */,
+				5044446E2175938300D49C0A /* MyWindow.m */,
 				504444382174CEEB00D49C0A /* Assets.xcassets */,
 				5044443A2174CEEB00D49C0A /* MainMenu.xib */,
 				5044443D2174CEEC00D49C0A /* Info.plist */,
@@ -126,6 +143,23 @@
 			path = PicViewerUITests;
 			sourceTree = "<group>";
 		};
+		82E56D836C3A4211E0829F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF9B53A4AE8F3B92B7925FD5 /* Pods-PicViewer.debug.xcconfig */,
+				7AE026320FE3A0DDADEECB47 /* Pods-PicViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EECEA910C2B51ECF71E4CC7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886E950296EB1447F6853C3F /* libPods-PicViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 504444592174CEEC00D49C0A /* Build configuration list for PBXNativeTarget "PicViewer" */;
 			buildPhases = (
+				3EAF15DAD5EBC831EB78ECF3 /* [CP] Check Pods Manifest.lock */,
 				5044442E2174CEEA00D49C0A /* Sources */,
 				5044442F2174CEEA00D49C0A /* Frameworks */,
 				504444302174CEEA00D49C0A /* Resources */,
@@ -250,13 +285,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EAF15DAD5EBC831EB78ECF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5044442E2174CEEA00D49C0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5044443F2174CEEC00D49C0A /* main.m in Sources */,
+				5044446C217592E000D49C0A /* MovableImageView.m in Sources */,
 				504444372174CEEA00D49C0A /* AppDelegate.m in Sources */,
+				5044446F2175938300D49C0A /* MyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +474,7 @@
 		};
 		5044445A2174CEEC00D49C0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9B53A4AE8F3B92B7925FD5 /* Pods-PicViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PicViewer/PicViewer.entitlements;
@@ -433,6 +492,7 @@
 		};
 		5044445B2174CEEC00D49C0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE026320FE3A0DDADEECB47 /* Pods-PicViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PicViewer/PicViewer.entitlements;
