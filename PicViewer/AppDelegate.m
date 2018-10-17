@@ -20,13 +20,18 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     
     // Insert code here to initialize your application
-    NSImage *testImage =[NSImage imageNamed:@"a"];
-    NSImageView *imageView = [MovableImageView imageViewWithImage:testImage];
+    MovableImageView *imageView = [MovableImageView new];
     [self.window.contentView addSubview:imageView];
-    
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.window.contentView);
     }];
+    imageView.imageChanged = ^(NSImage *image) {
+        NSRect frame = self.window.frame;
+        frame.size = image.size;
+        [self.window setFrame:frame display:YES animate:YES];
+        [self.window setAspectRatio:CGSizeMake(1., image.size.height / image.size.width)];
+//        [self.window setContentAspectRatio:image.size];
+    };
     
     [imageView setContentCompressionResistancePriority:NSLayoutPriorityDragThatCannotResizeWindow forOrientation:NSLayoutConstraintOrientationVertical];
     [imageView setContentCompressionResistancePriority:NSLayoutPriorityDragThatCannotResizeWindow forOrientation:NSLayoutConstraintOrientationHorizontal];

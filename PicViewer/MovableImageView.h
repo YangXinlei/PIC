@@ -8,10 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface MovableImageView : NSImageView
+
+@property (nonatomic, copy) void(^imageChanged)(NSImage *image);
 
 @end
 
-NS_ASSUME_NONNULL_END
