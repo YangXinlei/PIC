@@ -13,6 +13,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         [self registerForDraggedTypes:[NSImage imageTypes]];
+        self.imageScaling = NSImageScaleProportionallyUpOrDown;
     }
     return self;
 }
