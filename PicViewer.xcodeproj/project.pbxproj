@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5003E912217E0C6D00DF2A7C /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 5003E911217E0C6D00DF2A7C /* help.html */; };
 		504444372174CEEA00D49C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504444362174CEEA00D49C0A /* AppDelegate.m */; };
 		5044443C2174CEEB00D49C0A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5044443A2174CEEB00D49C0A /* MainMenu.xib */; };
 		5044443F2174CEEC00D49C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5044443E2174CEEC00D49C0A /* main.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5003E911217E0C6D00DF2A7C /* help.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
 		504444322174CEEA00D49C0A /* PicViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		504444352174CEEA00D49C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		504444362174CEEA00D49C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				5044443D2174CEEC00D49C0A /* Info.plist */,
 				5044443E2174CEEC00D49C0A /* main.m */,
 				504444402174CEEC00D49C0A /* PicViewer.entitlements */,
+				5003E911217E0C6D00DF2A7C /* help.html */,
 			);
 			path = PicViewer;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5044443C2174CEEB00D49C0A /* MainMenu.xib in Resources */,
+				5003E912217E0C6D00DF2A7C /* help.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

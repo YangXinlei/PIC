@@ -49,4 +49,9 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)showHelp:(id)sender {
+    NSURL * helpFile = [[NSBundle mainBundle] URLForResource:@"help" withExtension:@"html"];
+    [[NSWorkspace sharedWorkspace] openURL:helpFile];
+}
+
 @end
