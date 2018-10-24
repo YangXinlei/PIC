@@ -7,3 +7,11 @@ Picture Immediately Compare
 
 ![compare with design](https://github.com/YangXinlei/PIC/blob/master/compare.png)
 
+
+
+
+
+
+## TODO
+
+swift
